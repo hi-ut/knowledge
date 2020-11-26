@@ -20,8 +20,9 @@ rows = []
 rows.append(["Name", "Text", "Pic", "Birth Date", "兄弟", "子", "URL"])
 
 
-files = glob.glob("../../docs/entity/chname/*.json")
+files = glob.glob("../../docs/api/entity/chname/*.json")
 for file in files:
+    print(file)
     json_open = open(file, 'r')
     json_load = json.load(json_open)[0]
 
@@ -53,9 +54,9 @@ for file in files:
     sib = ""
     children = ""
 
-    if os.path.exists(file.replace("docs", "docs2")):
+    if os.path.exists(file.replace("entity", "test")):
 
-        path = file.replace("docs", "docs2")
+        path = file.replace("entity", "test")
 
         json_open2 = open(path, 'r')
         json_load2 = json.load(json_open2)
@@ -94,48 +95,7 @@ for file in files:
 
 
 
-    rows.append([label, description, image, birthDate, sib, children, "https://w3id.org/hi/snorql/?describe=https%3A%2F%2Fnakamura196.github.io%2Fhi_person%2Fentity%2Fchname%2F"+label+".json"])
-
-'''
-files = glob.glob("../../docs/entity/emperor/*.json")
-for file in files:
-    json_open = open(file, 'r')
-    json_load = json.load(json_open)[0]
-
-    # print(json_load)
-
-    label = json_load["http://www.w3.org/2000/01/rdf-schema#label"][0]["@value"]
-
-    start = json_load["https://jpsearch.go.jp/term/property#start"][0]["@value"]
-
-    end = json_load["https://jpsearch.go.jp/term/property#end"][0]["@value"]
-
-    image = ""
-
-    rows.append([start, "", "", "", end, "", "", "", "", label, "", image, "", "", image, "", "天皇"])
-
-files = glob.glob("../../docs/entity/time/*.json")
-for file in files:
-    json_open = open(file, 'r')
-    json_load = json.load(json_open)[0]
-
-    # print(json_load)
-
-    descriptions = []
-    
-    for obj in json_load["http://schema.org/description"]:
-        descriptions.append(obj["@value"])
-
-    description = "<br/>".join(descriptions)
-
-    start = json_load["https://jpsearch.go.jp/term/property#start"][0]["@value"]
-
-    end = json_load["https://jpsearch.go.jp/term/property#end"][0]["@value"]
-
-    image = ""
-
-    rows.append([start, "", "", "", end, "", "", "", "", "", description, image, "", "", image, "", "出来事"])
-'''
+    rows.append([label, description, image, birthDate, sib, children, "https://w3id.org/hi/snorql/?describe=https%3A%2F%2Fw3id.org%2Fhi%2Fapi%2Fentity%2Fchname%2F"+label])
 
 with open('data/p.csv', 'w') as f:
     writer = csv.writer(f, lineterminator='\n') # 改行コード（\n）を指定しておく

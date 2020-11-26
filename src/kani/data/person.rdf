@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:ns1="http://schema.org/"
-  xmlns:ns2="http://www.w3.org/2004/02/skos/core#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:ns3="https://nakamura196.github.io/hi_person/term/type/"
+  xmlns:ns1="http://schema.org/"
+  xmlns:ns2="https://w3id.org/hi/api/term/type/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://www.w3.org/2004/02/skos/core#"
 >
-  <ns3:国司.json rdf:about="https://nakamura196.github.io/hi_person/term/kani/大和介.json">
-    <ns2:closeMatch rdf:resource="https://nakamura196.github.io/hi_person/term/kani/正六位下.json"/>
+  <ns2:国司 rdf:about="https://w3id.org/hi/api/term/keyword/大和介">
+    <ns1:subject rdf:resource="https://w3id.org/hi/api/term/level/介"/>
+    <ns1:spatial rdf:resource="https://w3id.org/hi/api/entity/place/大和国"/>
+    <ns3:closeMatch rdf:resource="https://w3id.org/hi/api/term/keyword/正六位下"/>
     <rdfs:label>大和介</rdfs:label>
-    <ns1:subject rdf:resource="https://nakamura196.github.io/hi_person/term/level/介.json"/>
-    <ns1:spatial rdf:resource="https://nakamura196.github.io/hi_person/entity/place/大和国.json"/>
-  </ns3:国司.json>
-  <ns3:国司.json rdf:about="https://nakamura196.github.io/hi_person/term/kani/大和守.json">
-    <ns2:closeMatch rdf:resource="https://nakamura196.github.io/hi_person/term/kani/従五位上.json"/>
+  </ns2:国司>
+  <ns2:国司 rdf:about="https://w3id.org/hi/api/term/keyword/大和守">
+    <ns1:spatial rdf:resource="https://w3id.org/hi/api/entity/place/大和国"/>
     <rdfs:label>大和守</rdfs:label>
-    <ns1:subject rdf:resource="https://nakamura196.github.io/hi_person/term/level/守.json"/>
-    <ns1:spatial rdf:resource="https://nakamura196.github.io/hi_person/entity/place/大和国.json"/>
-  </ns3:国司.json>
+    <ns1:subject rdf:resource="https://w3id.org/hi/api/term/level/守"/>
+    <ns3:closeMatch rdf:resource="https://w3id.org/hi/api/term/keyword/従五位上"/>
+  </ns2:国司>
 </rdf:RDF>

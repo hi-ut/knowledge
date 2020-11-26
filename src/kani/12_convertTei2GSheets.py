@@ -72,27 +72,25 @@ def bbb(value):
         "jps" : "https://jpsearch.go.jp/term/property#",
         "schema" : "http://schema.org/", 
         "prop-ja" : "http://ja.dbpedia.org/property/",
-        "word" : "https://kotobank.jp/word/",
-        "emperor" : "https://nakamura196.github.io/hi_person/entity/emperor/",
+        
+        "emperor" : "https://w3id.org/hi/api/entity/emperor/",
         "wiki": "https://ja.wikipedia.org/wiki/",
-        "kani" : "https://nakamura196.github.io/hi_person/term/kani/",
-        "person" : "https://nakamura196.github.io/hi_person/entity/chname/",
-        "role" : "https://nakamura196.github.io/hi_person/term/role/",
+        "keyword" : "https://w3id.org/hi/api/term/keyword/",
+        "person" : "https://w3id.org/hi/api/entity/chname/",
+        "role" : "https://w3id.org/hi/api/term/role/",
         "skos" : "http://www.w3.org/2004/02/skos/core#",
-        "level" : "https://nakamura196.github.io/hi_person/term/level/",
-        "place" : "https://nakamura196.github.io/hi_person/entity/place/",
+        "level" : "https://w3id.org/hi/api/term/level/",
+        "place" : "https://w3id.org/hi/api/entity/place/",
         "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-        "type" : "https://nakamura196.github.io/hi_person/term/type/"
+        "type" : "https://w3id.org/hi/api/term/type/",
+        "word" : "https://kotobank.jp/word/",
     }
 
     for key in map:
         if key+":" in value:
             flg = True
             value = value.replace(key+":", map[key])
-
-            if key in ["emperor", "kani", "person", "role", "level", "place", "type"]:
-                value += ".json"
 
 
 
@@ -113,7 +111,7 @@ for sheetname in sheets:
 
     values = result["values"]
 
-    subject_str = "https://nakamura196.github.io/hi_person/entity/chname/"+sheetname+".json"
+    subject_str = "https://w3id.org/hi/api/entity/chname/"+sheetname
 
     subject = URIRef(subject_str)
 
