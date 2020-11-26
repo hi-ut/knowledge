@@ -6,7 +6,7 @@ var Snorqldef = {
 		//_endpoint: "/works/ld/jpsearch/ep",
 		_endpoint: "https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql",
 		_poweredByLink: "https://www.hi.u-tokyo.ac.jp/publication/syoho/10/pub_kokiroku-minkeiki-01.html",
-		_poweredByLabel: "民経記人物DB",
+		_poweredByLabel: "HI Knowledge DB",
 		default_query: "SELECT DISTINCT * WHERE {\n\t?s rdfs:label ?label . \n}\nORDER BY ?s\nLIMIT 100",
 		link_img: "link.png",	//relative position 2019-01-20
 		//prefixes to display properties as QName (in addtion to basic snorql._namespace)
@@ -17,7 +17,7 @@ var Snorqldef = {
 	},
 	//home setting properties: this is for Japan Search
 	home: {
-    	label: "民経記人物DB",
+    	label: "HI Knowledge DB",
 		uri: "https://www.hi.u-tokyo.ac.jp/publication/syoho/10/pub_kokiroku-minkeiki-01.html",
 		datauri: "https://jpsearch.go.jp/data/",	//basic 'record' namespace
 		datauri_pat: "^(https://jpsearch.go.jp|https://ld.cultural.jp|http://purl.org/net/ld/jpsearch)/data/",	//basic 'record' namespace

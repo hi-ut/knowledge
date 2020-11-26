@@ -2668,10 +2668,6 @@ var Util = {
 			["Snorql for " + hdef.label, snorqllink, eplink]
 		));
 		var ul = this.dom.element("ul");
-		gen_elt(ul, "li", [
-			"入力欄下にクエリ例があります。<a href=\"https://jpsearch.go.jp/api/sparql-explain/\">ジャパンサーチSPARQLエンドポイント解説</a>も参照してください。", 
-			"Query examples are provided below the text area. See also <a href=\"https://www.kanzaki.com/works/ld/jpsearch/primer/\">Japan Search RDF Model Primer</a> for the general description."
-		][lang]);
 		if(idef) idef.forEach(function(v){
 			gen_elt(ul, "li", Util.str.langtext(v, lang));
 		});
