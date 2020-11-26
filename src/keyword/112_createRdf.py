@@ -20,7 +20,7 @@ arr = []
 all = Graph()
 
 '''
-t = "https://nakamura196.github.io/hi_person/term/type/Person.json"
+t = "https://w3id.org/hi/api/term/type/Person.json"
 
 subject = URIRef(t)
 
@@ -34,7 +34,7 @@ all.add(stmt)
 
 
 
-path = t.replace("https://nakamura196.github.io/hi_person", "../docs")
+path = t.replace("https://w3id.org/hi/api", "../docs")
 
 dirname = os.path.dirname(path)
 
@@ -46,7 +46,7 @@ all.serialize(destination=path, format='json-ld')
 
 for file in files:
     filename = os.path.splitext(os.path.basename(file))[0]
-    id = "https://nakamura196.github.io/hi_person/term/keyword/" + filename + ".json"
+    id = "https://w3id.org/hi/api/term/keyword/" + filename
 
     json_open = open(file, 'r')
     json_load = json.load(json_open)
@@ -141,7 +141,7 @@ for file in files:
     except Exception as e:
         print(e)
 
-    path = id.replace("https://nakamura196.github.io/hi_person", "../docs")
+    path = id.replace("https://w3id.org/hi/api", "../docs") + ".json"
 
     dirname = os.path.dirname(path)
 

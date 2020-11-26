@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/xn04eyc67sg1",
+    "http://schema.org/latitude": [
+      {
+        "@value": "34.226944"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "135.166666"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/紀伊国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xn04eyc67sg1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "紀伊国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/紀伊国"
+      }
+    ]
+  }
+]

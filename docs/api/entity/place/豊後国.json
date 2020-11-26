@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/wvvt4fv39w8c",
+    "http://schema.org/latitude": [
+      {
+        "@value": "33.238055"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "131.6125"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/豊後国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wvvt4fv39w8c"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "豊後国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/豊後国"
+      }
+    ]
+  }
+]

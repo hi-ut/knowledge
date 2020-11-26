@@ -23,7 +23,7 @@ d = json.load(json_open)
 for obj in d:
     if "http://purl.org/dc/terms/spatial" in obj:
         value = obj["http://purl.org/dc/terms/spatial"][0]["@id"]
-        value = value.replace("http://ja.dbpedia.org/resource/", "https://nakamura196.github.io/hi_person/entity/place/") + ".json"
+        value = value.replace("http://ja.dbpedia.org/resource/", "https://w3id.org/hi/api/entity/place/")
         obj["http://purl.org/dc/terms/spatial"][0]["@id"] = value
 
     title = obj["http://purl.org/dc/terms/title"][0]["@value"]
@@ -36,12 +36,6 @@ for obj in d:
         "@id" : title
     }]
 
-'''
 f2 = open("data/new.json", 'w')
 json.dump(d, f2, ensure_ascii=False, indent=4,
             sort_keys=True, separators=(',', ': '))
-'''
-
-all = Graph()
-all.parse("data/new.json", format="json-ld")
-all.serialize(destination="data/new.rdf", format='pretty-xml')

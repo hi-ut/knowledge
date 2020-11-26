@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/民部卿.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/民部卿",
     "http://schema.org/description": [
       {
         "@value": "民部省の長官。たみのつかさのかみ。"

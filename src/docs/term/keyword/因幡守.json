@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/因幡守.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/因幡守",
     "http://schema.org/description": [
       {
         "@value": "因幡国（いなばのくに）は、かつて日本の地方行政区分だった令制国の一つ。山陰道に属する。"

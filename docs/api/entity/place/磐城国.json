@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/磐城国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xns4y48b82zh"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "磐城国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/磐城国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/xns4y48b82zh",
+    "http://schema.org/latitude": [
+      {
+        "@value": "37.059722"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "140.889722"
+      }
+    ]
+  }
+]

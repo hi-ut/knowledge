@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/wypjk1g5mw09",
+    "http://schema.org/latitude": [
+      {
+        "@value": "34.683055"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "133.773888"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/備中国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wypjk1g5mw09"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "備中国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/備中国"
+      }
+    ]
+  }
+]

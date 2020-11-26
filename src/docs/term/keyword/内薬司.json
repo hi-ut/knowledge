@@ -1,12 +1,12 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/内薬司.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/内薬司",
     "http://schema.org/description": [
       {
-        "@value": "内薬司（ないやくし）は律令制において中務省に属する機関の一つである。"
+        "@value": "律令制で、中務(なかつかさ)省に属し、宮中の薬・香の管理・調合などをつかさどった役所。うちのくすりのつかさ。"
       },
       {
-        "@value": "律令制で、中務(なかつかさ)省に属し、宮中の薬・香の管理・調合などをつかさどった役所。うちのくすりのつかさ。"
+        "@value": "内薬司（ないやくし）は律令制において中務省に属する機関の一つである。"
       }
     ],
     "http://schema.org/url": [

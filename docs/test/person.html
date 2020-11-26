@@ -43,7 +43,7 @@
             <template v-if="main['http://www.w3.org/2000/01/rdf-schema#label']">
               <h1>
                 <a
-                  :href="'https://nakamura196.github.io/hi_person/snorql/?describe=' + u"
+                  :href="'https://w3id.org/hi/snorql/?describe=' + u"
                   target="new"
                 >
                   {{main["http://www.w3.org/2000/01/rdf-schema#label"][0]}}
@@ -89,14 +89,14 @@
                       <td>
                         <template v-if="item.value">
                           <a
-                            :href="'https://nakamura196.github.io/hi_person/snorql/?describe=' + item.value"
+                            :href="'https://w3id.org/hi/snorql/?describe=' + item.value"
                             target="new"
                           >
                             {{item.value.split("/kani/")[1].replace(".json",
                             "")}}
                           </a>
                         </template>
-                        <template v-elif="item.link">
+                        <template v-else-if="item.link">
                           <a
                             :href="item.link"
                             target="new"

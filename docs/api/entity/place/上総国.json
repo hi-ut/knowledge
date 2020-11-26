@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/上総国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xn79umcvryr4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "上総国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/上総国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/xn79umcvryr4",
+    "http://schema.org/latitude": [
+      {
+        "@value": "35.496388"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "140.111388"
+      }
+    ]
+  }
+]

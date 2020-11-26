@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/左京大夫.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/左京大夫",
     "http://schema.org/description": [
       {
         "@value": "左京職の長官。"
@@ -11,10 +11,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "http://ja.wikipedia.org/wiki/京職"
+        "@id": "https://kotobank.jp/word/左京大夫"
       },
       {
-        "@id": "https://kotobank.jp/word/左京大夫"
+        "@id": "http://ja.wikipedia.org/wiki/京職"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

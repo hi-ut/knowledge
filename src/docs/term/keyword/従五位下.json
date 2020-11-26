@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/従五位下.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/従五位下",
     "http://schema.org/description": [
       {
         "@value": "…原義は栄誉ある爵位(位階)。ただし律令では五位以上を貴族としたので，とくに従五位下を指すことが多くなった。いっぽう公共に財物を貢献した者に位階を授ける例が奈良時代から開けていたが，平安時代中期以降，五位を希望する者を募って朝廷･寺社の建物の修築や行事の費用を負担させることが行われ，単に栄爵といえばこの類の売位制度を指すようになった。…"
@@ -11,10 +11,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kotobank.jp/word/従五位下"
+        "@id": "http://ja.wikipedia.org/wiki/従五位"
       },
       {
-        "@id": "http://ja.wikipedia.org/wiki/従五位"
+        "@id": "https://kotobank.jp/word/従五位下"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

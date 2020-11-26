@@ -1,20 +1,20 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/縫殿寮.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/縫殿寮",
     "http://schema.org/description": [
       {
-        "@value": "律令制で、中務(なかつかさ)省に属し、天皇および賞賜の衣服を裁縫し、また、女官の考課をつかさどった役所。ぬいどののつかさ。ぬいづかさ。ぬいりょう。ぬい。"
+        "@value": "縫殿寮（ぬいどのりょう）は律令制における中務省管下の女官人事・裁縫監督機関である。"
       },
       {
-        "@value": "縫殿寮（ぬいどのりょう）は律令制における中務省管下の女官人事・裁縫監督機関である。"
+        "@value": "律令制で、中務(なかつかさ)省に属し、天皇および賞賜の衣服を裁縫し、また、女官の考課をつかさどった役所。ぬいどののつかさ。ぬいづかさ。ぬいりょう。ぬい。"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kotobank.jp/word/縫殿寮"
+        "@id": "http://ja.wikipedia.org/wiki/縫殿寮"
       },
       {
-        "@id": "http://ja.wikipedia.org/wiki/縫殿寮"
+        "@id": "https://kotobank.jp/word/縫殿寮"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

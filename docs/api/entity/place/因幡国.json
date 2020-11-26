@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/因幡国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wyr3ywdr6fbv"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "因幡国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/因幡国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/wyr3ywdr6fbv",
+    "http://schema.org/latitude": [
+      {
+        "@value": "35.500833"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "134.234166"
+      }
+    ]
+  }
+]

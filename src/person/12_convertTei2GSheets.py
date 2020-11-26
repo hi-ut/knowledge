@@ -72,21 +72,19 @@ def bbb(value):
         "jps" : "https://jpsearch.go.jp/term/property#",
         "schema" : "http://schema.org/", 
         "prop-ja" : "http://ja.dbpedia.org/property/",
-        "word" : "https://kotobank.jp/word/",
-        "emperor" : "https://nakamura196.github.io/hi_person/entity/emperor/",
+        
+        "emperor" : "https://w3id.org/hi/api/entity/emperor/",
         "wiki": "https://ja.wikipedia.org/wiki/",
-        "kani" : "https://nakamura196.github.io/hi_person/term/kani/",
-        "person" : "https://nakamura196.github.io/hi_person/entity/chname/",
-        "role" : "https://nakamura196.github.io/hi_person/term/role/"
+        "keyword" : "https://w3id.org/hi/api/term/keyword/",
+        "word" : "https://kotobank.jp/word/",
+        "person" : "https://w3id.org/hi/api/entity/chname/",
+        "role" : "https://w3id.org/hi/api/term/role/"
     }
 
     for key in map:
         if key+":" in value:
             flg = True
             value = value.replace(key+":", map[key])
-
-            if key in ["emperor", "kani", "person", "role"]:
-                value += ".json"
 
 
 
@@ -107,7 +105,7 @@ for sheetname in sheets:
 
     values = result["values"]
 
-    subject_str = "https://nakamura196.github.io/hi_person/entity/chname/"+sheetname+".json"
+    subject_str = "https://w3id.org/hi/api/test/chname/"+sheetname
 
     subject = URIRef(subject_str)
 
@@ -171,7 +169,7 @@ for sheetname in sheets:
             all.add((b, obj["v"], obj["o"]))
             g.add((b, obj["v"], obj["o"]))
 
-    path = subject_str.replace("https://nakamura196.github.io/hi_person", "../../docs2")
+    path = subject_str.replace("https://w3id.org/hi", "../../docs")+".json"
     print(path)
 
     dirname = os.path.dirname(path)

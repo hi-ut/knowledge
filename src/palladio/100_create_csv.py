@@ -94,7 +94,7 @@ for file in files:
 
 
 
-    rows.append([label, description, image, birthDate, sib, children, "https://nakamura196.github.io/hi_person/snorql/?describe=https%3A%2F%2Fnakamura196.github.io%2Fhi_person%2Fentity%2Fchname%2F"+label+".json"])
+    rows.append([label, description, image, birthDate, sib, children, "https://w3id.org/hi/snorql/?describe=https%3A%2F%2Fnakamura196.github.io%2Fhi_person%2Fentity%2Fchname%2F"+label+".json"])
 
 '''
 files = glob.glob("../../docs/entity/emperor/*.json")

@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/xneyu2m69cr6",
+    "http://schema.org/latitude": [
+      {
+        "@value": "37.750833"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "140.4675"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/岩代国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xneyu2m69cr6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "岩代国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/岩代国"
+      }
+    ]
+  }
+]

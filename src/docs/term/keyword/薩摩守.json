@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/薩摩守.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/薩摩守",
     "http://schema.org/description": [
       {
         "@value": "薩摩国司（さつまこくし）は、薩摩国の国司。薩摩守、薩摩介、薩摩大掾、薩摩少掾、薩摩大目、薩摩少目の各1人で構成される。"
@@ -11,10 +11,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "http://ja.wikipedia.org/wiki/薩摩国司"
+        "@id": "https://kotobank.jp/word/薩摩守"
       },
       {
-        "@id": "https://kotobank.jp/word/薩摩守"
+        "@id": "http://ja.wikipedia.org/wiki/薩摩国司"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

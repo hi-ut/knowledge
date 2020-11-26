@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/xn324fdj6vz8",
+    "http://schema.org/latitude": [
+      {
+        "@value": "35.170915"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "136.881537"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/名古屋",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xn324fdj6vz8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "名古屋"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/名古屋"
+      }
+    ]
+  }
+]

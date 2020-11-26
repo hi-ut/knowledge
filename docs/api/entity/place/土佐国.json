@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/土佐国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wvzp1h6wn513"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "土佐国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/土佐国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/wvzp1h6wn513",
+    "http://schema.org/latitude": [
+      {
+        "@value": "33.598611"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "133.641388"
+      }
+    ]
+  }
+]

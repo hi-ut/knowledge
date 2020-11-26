@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/正五位下.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/正五位下",
     "http://schema.org/description": [
       {
         "@value": "正五位（しょうごい）とは、日本の位階及び神階における位のひとつ。従四位の下、従五位の上に位する。贈位の場合、贈正五位という。"

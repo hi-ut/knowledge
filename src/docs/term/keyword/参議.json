@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/参議.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/参議",
     "http://schema.org/description": [
       {
         "@value": "参議（さんぎ）は、日本の朝廷組織の最高機関である太政官の官職の一つである。四等官の中の次官（すけ）に相当する令外官で、納言に次ぐ。唐名（漢風名称）は宰相・相公・平章事・諫議大夫。和訓はおほまつりことひと。宮中の政（朝政）に参議する（「参政朝議」）という意味で、朝政の議政官に位置する。"
@@ -11,10 +11,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://kotobank.jp/word/参議"
+        "@id": "http://ja.wikipedia.org/wiki/参議"
       },
       {
-        "@id": "http://ja.wikipedia.org/wiki/参議"
+        "@id": "https://kotobank.jp/word/参議"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [

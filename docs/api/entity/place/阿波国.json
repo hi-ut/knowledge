@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/阿波国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wyp9gcxq2fts"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "阿波国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/阿波国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/wyp9gcxq2fts",
+    "http://schema.org/latitude": [
+      {
+        "@value": "34.066944"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "134.471666"
+      }
+    ]
+  }
+]

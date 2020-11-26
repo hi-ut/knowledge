@@ -1,6 +1,6 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/term/keyword/美濃守.json",
+    "@id": "https://w3id.org/hi/api/term/keyword/美濃守",
     "http://schema.org/description": [
       {
         "@value": "美濃国（みののくに）は、かつて日本の地方行政区分だった令制国の一つ。東山道に属する。"

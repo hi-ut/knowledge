@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/wvufx16cpnst",
+    "http://schema.org/latitude": [
+      {
+        "@value": "32.790277"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "130.741388"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/肥後国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wvufx16cpnst"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "肥後国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/肥後国"
+      }
+    ]
+  }
+]

@@ -1,10 +1,10 @@
 var D2R_namespacePrefixes = {
     "jps": "https://jpsearch.go.jp/term/property#",
     "schema": "http://schema.org/",
-    "type": "https://nakamura196.github.io/hi_person/term/type/",
-    "chname": "https://nakamura196.github.io/hi_person/entity/chname/",
-    "place": "https://nakamura196.github.io/hi_person/entity/place/",
-    "time": "https://nakamura196.github.io/hi_person/entity/time/",
+    "type": "https://w3id.org/hi/api/term/type/",
+    "chname": "https://w3id.org/hi/api/entity/chname/",
+    "place": "https://w3id.org/hi/api/entity/place/",
+    "time": "https://w3id.org/hi/api/entity/time/",
     //"work": "https://jpsearch.go.jp/entity/work/",
     //"role": "https://jpsearch.go.jp/term/role/",
     //"keyword": "https://jpsearch.go.jp/term/keyword/",
@@ -20,9 +20,9 @@ var D2R_namespacePrefixes = {
     dct: "http://purl.org/dc/terms/",
     genji: "https://w3id.org/kouigenjimonogatari/api/property/",
     "prop-ja": "http://ja.dbpedia.org/property/",
-    "emperor": "https://nakamura196.github.io/hi_person/entity/emperor/",
-    "kani": "https://nakamura196.github.io/hi_person/term/kani/",
-    "role": "https://nakamura196.github.io/hi_person/term/role/",
-    "keyword": "https://nakamura196.github.io/hi_person/term/keyword/"
+    "emperor": "https://w3id.org/hi/api/entity/emperor/",
+    "kani": "https://w3id.org/hi/api/term/kani/",
+    "role": "https://w3id.org/hi/api/term/role/",
+    "keyword": "https://w3id.org/hi/api/term/keyword/"
 };
 

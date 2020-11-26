@@ -17,7 +17,7 @@ import geohash2
 
 all = Graph()
 
-aaa = URIRef("https://nakamura196.github.io/hi_person/term/type/Place.json")
+aaa = URIRef("https://w3id.org/hi/api/term/type/Place")
 
 stmt = (aaa, RDF.type, RDFS.Class)
 all.add(stmt)
@@ -43,6 +43,8 @@ for obj in data:
 
     uri = "http://geohash.org/" + (geohash2.encode(lat, ln))
 
+    g = Graph()
+
     lat = str(lat)
     ln = str(ln)
 
@@ -50,32 +52,40 @@ for obj in data:
 
     stmt = (subject, URIRef("http://schema.org/latitude"), Literal(lat))
 
-    all.add(stmt)
+    g.add(stmt)
 
     stmt = (subject, URIRef("http://schema.org/longitude"), Literal(ln))
 
-    all.add(stmt)
+    g.add(stmt)
 
     label = obj["http://www.w3.org/2000/01/rdf-schema#label"][0]["@value"]
 
     rows.append([label, lat+","+ln])
 
-    uri2 = "https://nakamura196.github.io/hi_person/entity/place/" + label + ".json"
+    uri2 = "https://w3id.org/hi/api/entity/place/" + label
 
     subject2 = URIRef(uri2)
 
     stmt = (subject2, URIRef("http://schema.org/geo"), subject)
 
-    all.add(stmt)
+    g.add(stmt)
 
     stmt = (subject2, URIRef("http://www.w3.org/2000/01/rdf-schema#label"), Literal(label))
-    all.add(stmt)
+    g.add(stmt)
 
     stmt = (subject2, URIRef("http://www.w3.org/2000/01/rdf-schema#seeAlso"), URIRef(obj["@id"]))
-    all.add(stmt)
+    g.add(stmt)
 
     stmt = (subject2, URIRef("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"), aaa)
-    all.add(stmt)
+    g.add(stmt)
+
+    path = subject2.replace("https://w3id.org/hi", "../../docs")+".json"
+    print(path)
+    dirname = os.path.dirname(path)
+    os.makedirs(dirname, exist_ok=True)
+    g.serialize(destination=path, format='json-ld')
+
+    all += g
 
 path = "data/all.rdf"
 all.serialize(destination=path, format='pretty-xml')

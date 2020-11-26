@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/wypm27tt8y4y",
+    "http://schema.org/latitude": [
+      {
+        "@value": "34.693055"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "133.963888"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/備前国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wypm27tt8y4y"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "備前国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/備前国"
+      }
+    ]
+  }
+]

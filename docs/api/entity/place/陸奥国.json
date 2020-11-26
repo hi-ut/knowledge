@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/陸奥国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xpk04xv0kurc"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "陸奥国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/陸奥国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/xpk04xv0kurc",
+    "http://schema.org/latitude": [
+      {
+        "@value": "40.823888"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "140.741944"
+      }
+    ]
+  }
+]

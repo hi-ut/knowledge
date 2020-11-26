@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/xn2169vq72xh",
+    "http://schema.org/latitude": [
+      {
+        "@value": "35.386666"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "135.117222"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/丹後国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xn2169vq72xh"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "丹後国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/丹後国"
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "http://geohash.org/xn0x1pmuz0r2",
+    "http://schema.org/latitude": [
+      {
+        "@value": "35.021111"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "135.755277"
+      }
+    ]
+  },
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/山城国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/xn0x1pmuz0r2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "山城国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/山城国"
+      }
+    ]
+  }
+]

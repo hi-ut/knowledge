@@ -1,0 +1,36 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/entity/place/安芸国",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Place"
+    ],
+    "http://schema.org/geo": [
+      {
+        "@id": "http://geohash.org/wyn5xq62vufy"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "安芸国"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "http://ja.dbpedia.org/resource/安芸国"
+      }
+    ]
+  },
+  {
+    "@id": "http://geohash.org/wyn5xq62vufy",
+    "http://schema.org/latitude": [
+      {
+        "@value": "34.399722"
+      }
+    ],
+    "http://schema.org/longitude": [
+      {
+        "@value": "132.509444"
+      }
+    ]
+  }
+]
