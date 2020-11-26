@@ -1,8 +1,8 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/shogunate/宗尊親王.json",
+    "@id": "https://w3id.org/hi/api/entity/shogunate/宗尊親王",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Shogunate.json"
+      "https://w3id.org/hi/api/term/type/Shogunate"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {

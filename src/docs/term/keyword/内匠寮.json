@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/内匠寮.json",
+    "http://schema.org/description": [
+      {
+        "@value": "１ 令外(りょうげ)の官。中務(なかつかさ)省に属し、宮中の器物・造営、殿舎の装飾をつかさどった役所。うちのたくみのつかさ。たくみづかさ。２ 宮内省の部局の一。庭園・土木・建築に関することを管掌。"
+      },
+      {
+        "@value": "内匠寮（ないしょうりょう）は、律令制において中務省に属する令外官の一つである。訓読みは「たくみりょう」・「うちたくみのつかさ」など。また、近代の宮内省に設置された内部部局の一つ。"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/内匠寮"
+      },
+      {
+        "@id": "https://kotobank.jp/word/内匠寮"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "内匠寮"
+      }
+    ]
+  }
+]

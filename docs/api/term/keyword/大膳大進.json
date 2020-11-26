@@ -1,0 +1,13 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/大膳大進",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "大膳大進"
+      }
+    ]
+  }
+]

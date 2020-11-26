@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/主水正",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "…また主水をのちには〈もんど〉ともよんだ。中世には主水正は清原氏が任じられ，氷室も一部存続した。【石上 英一】。…"
+      },
+      {
+        "@value": "主水司（しゅすいし/もいとりのつかさ）は律令制において宮内省に属する機関の一つである。"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "主水司"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "主水正"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/主水司"
+      },
+      {
+        "@id": "https://kotobank.jp/word/主水正"
+      }
+    ]
+  }
+]

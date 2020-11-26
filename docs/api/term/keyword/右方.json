@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/右方",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "１ 右のほう。⇔左方。２ 「右方の楽(がく)」および「右方の舞(まい)」の略。"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "右方"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://kotobank.jp/word/右方"
+      }
+    ]
+  }
+]

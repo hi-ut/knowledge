@@ -1,15 +1,15 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/time/1225.json",
+    "@id": "https://w3id.org/hi/api/entity/time/1225",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Time.json"
+      "https://w3id.org/hi/api/term/type/Time"
     ],
     "http://schema.org/description": [
       {
-        "@value": "幕府に評定衆、設置 される"
+        "@value": "7月、北条政子死去"
       },
       {
-        "@value": "7月、北条政子死去"
+        "@value": "幕府に評定衆、設置 される"
       }
     ],
     "http://schema.org/endDate": [

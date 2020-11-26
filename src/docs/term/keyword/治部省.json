@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/治部省.json",
+    "http://schema.org/description": [
+      {
+        "@value": "治部省（じぶしょう）は律令制における八省のうちのひとつ。和名は「おさむるつかさ」。"
+      },
+      {
+        "@value": "律令制における八省の一つ。氏姓や，五位以上の継嗣，婚姻や，喪葬，国忌，朝楽，僧尼，山陵，外交のことを司った。被官として雅楽，玄蕃，諸陵の3寮および喪儀司 (9世紀初頭まで) を支配した。長官である治部卿の下に輔，丞，録などがおかれた。『日本書紀』天武紀に「理官」とみえるのはその前身。"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/治部省"
+      },
+      {
+        "@id": "https://kotobank.jp/word/治部省"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "治部省"
+      }
+    ]
+  }
+]

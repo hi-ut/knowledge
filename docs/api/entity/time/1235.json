@@ -1,15 +1,15 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/time/1235.json",
+    "@id": "https://w3id.org/hi/api/entity/time/1235",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Time.json"
+      "https://w3id.org/hi/api/term/type/Time"
     ],
     "http://schema.org/description": [
       {
-        "@value": "西大寺：真言僧の叡尊が入寺し、鎌倉幕府や院などの帰依の下に東塔をはじめとする伽藍を再興する"
+        "@value": "藤原定家、私撰和歌集（小倉百人一首）を著す"
       },
       {
-        "@value": "藤原定家、私撰和歌集（小倉百人一首）を著す"
+        "@value": "西大寺：真言僧の叡尊が入寺し、鎌倉幕府や院などの帰依の下に東塔をはじめとする伽藍を再興する"
       }
     ],
     "http://schema.org/endDate": [

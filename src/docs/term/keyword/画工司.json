@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/画工司.json",
+    "http://schema.org/description": [
+      {
+        "@value": "画工司（がこうし）は、日本の律令制において中務省に属する機関の一つである。"
+      },
+      {
+        "@value": "令制の中務省 (なかつかさしょう) に属し，絵画，彩色のことを司った役所。正，佑，令史，画師 (→絵師 ) ，画部，使部，直丁などで構成されていた。大同3 (808) 年内匠 (たくみ) 寮に併合され，のち絵所 (えどころ) と呼ばれた。"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kotobank.jp/word/画工司"
+      },
+      {
+        "@id": "http://ja.wikipedia.org/wiki/画工司"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "画工司"
+      }
+    ]
+  }
+]

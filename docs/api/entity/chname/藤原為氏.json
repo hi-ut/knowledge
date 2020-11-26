@@ -1,15 +1,15 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/chname/藤原為氏.json",
+    "@id": "https://w3id.org/hi/api/entity/chname/藤原為氏",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Person.json"
+      "https://w3id.org/hi/api/term/type/Person"
     ],
     "http://schema.org/description": [
       {
-        "@value": "二条 為氏（にじょう ためうじ）は、鎌倉時代中期の公卿・歌人。藤原北家御子左家の嫡流で、権大納言藤原為家の長男。和歌の家である二条家（二条派）の祖。"
+        "@value": "［1222～1286］鎌倉中期の歌人。為家の長男。為世の父。二条家の祖。「続拾遺集」を撰進。"
       },
       {
-        "@value": "［1222～1286］鎌倉中期の歌人。為家の長男。為世の父。二条家の祖。「続拾遺集」を撰進。"
+        "@value": "二条 為氏（にじょう ためうじ）は、鎌倉時代中期の公卿・歌人。藤原北家御子左家の嫡流で、権大納言藤原為家の長男。和歌の家である二条家（二条派）の祖。"
       }
     ],
     "http://schema.org/name": [
@@ -24,10 +24,10 @@
     ],
     "http://www.w3.org/2002/07/owl#sameAs": [
       {
-        "@id": "https://kotobank.jp/word/藤原為氏"
+        "@id": "http://ja.wikipedia.org/wiki/二条為氏"
       },
       {
-        "@id": "http://ja.wikipedia.org/wiki/二条為氏"
+        "@id": "https://kotobank.jp/word/藤原為氏"
       }
     ]
   }

@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/散位寮.json",
+    "http://schema.org/description": [
+      {
+        "@value": "散位寮（さんいりょう/さんにりょう）は古代日本の律令制において式部省に属する機関の一つである。なお、唐の制度には散位寮に該当する機関は存在しない。"
+      },
+      {
+        "@value": "律令制で、式部省に属し、文武官の散位に関することをつかさどった役所。"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/散位寮"
+      },
+      {
+        "@id": "https://kotobank.jp/word/散位寮"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "散位寮"
+      }
+    ]
+  }
+]

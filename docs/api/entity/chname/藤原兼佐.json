@@ -1,8 +1,8 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/chname/藤原兼佐.json",
+    "@id": "https://w3id.org/hi/api/entity/chname/藤原兼佐",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Person.json"
+      "https://w3id.org/hi/api/term/type/Person"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {

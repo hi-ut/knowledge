@@ -1,8 +1,8 @@
 [
   {
-    "@id": "https://nakamura196.github.io/hi_person/entity/emperor/四条天皇.json",
+    "@id": "https://w3id.org/hi/api/entity/emperor/四条天皇",
     "@type": [
-      "https://nakamura196.github.io/hi_person/term/type/Emperor.json"
+      "https://w3id.org/hi/api/term/type/Emperor"
     ],
     "http://schema.org/image": [
       {

@@ -1,0 +1,23 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/陰陽頭",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "陰陽寮の長官。うらのかみ。"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "陰陽頭"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://kotobank.jp/word/陰陽頭"
+      }
+    ]
+  }
+]

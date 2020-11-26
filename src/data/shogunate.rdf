@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="https://jpsearch.go.jp/term/property#"
+  xmlns:ns2="https://w3id.org/hi/api/term/type/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://schema.org/"
+>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/藤原頼経">
+    <rdfs:label>藤原頼経</rdfs:label>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Kuj%C5%8D_Yoritsune.jpg/160px-Kuj%C5%8D_Yoritsune.jpg"/>
+    <ns1:end>1244-04-28</ns1:end>
+    <ns1:start>1226-01-27</ns1:start>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/惟康親王">
+    <ns1:end>1289-09-14</ns1:end>
+    <ns1:start>1266-07-24</ns1:start>
+    <rdfs:label>惟康親王</rdfs:label>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/源頼家">
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Minamoto_no_Yoriie.jpg/160px-Minamoto_no_Yoriie.jpg"/>
+    <ns1:end>1203-09-07</ns1:end>
+    <rdfs:label>源頼家</rdfs:label>
+    <ns1:start>1202-07-22</ns1:start>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/源頼朝">
+    <ns1:end>1199-01-13</ns1:end>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Minamoto_no_Yoritomo.jpg/160px-Minamoto_no_Yoritomo.jpg"/>
+    <ns1:start>1192-07-12</ns1:start>
+    <rdfs:label>源頼朝</rdfs:label>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/宗尊親王">
+    <rdfs:label>宗尊親王</rdfs:label>
+    <ns1:start>1252-04-01</ns1:start>
+    <ns1:end>1266-07-20</ns1:end>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/藤原頼嗣">
+    <ns1:end>1252-02-20</ns1:end>
+    <ns1:start>1244-04-28</ns1:start>
+    <rdfs:label>藤原頼嗣</rdfs:label>
+  </ns2:Shogunate>
+  <ns2:Shogunate rdf:about="https://w3id.org/hi/api/entity/shogunate/源実朝">
+    <rdfs:label>源実朝</rdfs:label>
+    <ns1:start>1203-09-07</ns1:start>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Minamoto_no_Sanetomo.jpg/160px-Minamoto_no_Sanetomo.jpg"/>
+    <ns1:end>1219-01-27</ns1:end>
+  </ns2:Shogunate>
+  <rdfs:Class rdf:about="https://w3id.org/hi/api/term/type/Shogunate">
+    <rdfs:label>Shogunate</rdfs:label>
+  </rdfs:Class>
+</rdf:RDF>

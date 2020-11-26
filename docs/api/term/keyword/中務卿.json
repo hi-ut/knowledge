@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/中務卿",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "中務省の長官。正四位上相当。平安時代以後、四品以上の親王が任命された。なかつかさのかみ。"
+      },
+      {
+        "@value": "中務省（なかつかさしょう）は、律令制における八省のひとつ。和名はナカノマツリゴトノツカサ。唐名は中書省など。「中」は禁中の意。"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "中務省"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "中務卿"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/中務省"
+      },
+      {
+        "@id": "https://kotobank.jp/word/中務卿"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/中務省.json",
+    "http://schema.org/description": [
+      {
+        "@value": "中務省（なかつかさしょう）は、律令制における八省のひとつ。和名はナカノマツリゴトノツカサ。唐名は中書省など。「中」は禁中の意。"
+      },
+      {
+        "@value": "令制における太政官八省の一つ。禁中の庶務をとる役所。天皇に近侍して，詔勅，宣下 (せんげ) ，叙位のことなどを司った。長官である中務卿には四位以上の親王が任じられ，その下に輔，丞，録の四等官以下がおかれた。ほかに天皇近侍の侍従がいた。"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://ja.wikipedia.org/wiki/中務省"
+      },
+      {
+        "@id": "https://kotobank.jp/word/中務省"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "中務省"
+      }
+    ]
+  }
+]

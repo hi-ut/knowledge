@@ -1,0 +1,34 @@
+[
+  {
+    "@id": "https://w3id.org/hi/api/term/keyword/刑部卿",
+    "@type": [
+      "https://w3id.org/hi/api/term/type/Kani"
+    ],
+    "http://schema.org/description": [
+      {
+        "@value": "刑部省の長官。正四位下に相当。"
+      },
+      {
+        "@value": "刑部省（ぎょうぶしょう）は、古代日本の律令制下の八省の一つ、もしくは明治時代の省庁の一つ。"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@value": "刑部省"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "刑部卿"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "https://kotobank.jp/word/刑部卿"
+      },
+      {
+        "@id": "http://ja.wikipedia.org/wiki/刑部省"
+      }
+    ]
+  }
+]

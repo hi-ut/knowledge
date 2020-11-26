@@ -1,0 +1,31 @@
+[
+  {
+    "@id": "https://nakamura196.github.io/hi_person/term/keyword/大蔵省.json",
+    "http://schema.org/description": [
+      {
+        "@value": "大蔵省（おおくらしょう、Ministry of Finance, MOF）は、明治維新から2001年（平成13年）1月6日まで存在した日本の中央官庁である。後継官庁は財務省と金融庁。前近代の律令制による大蔵省も奈良時代の大宝律令から明治維新まで存続していたため、「大蔵省」という名称は1300年の長きにわたって用いられたことになる。"
+      },
+      {
+        "@value": "令制における八省の1つ。諸国の庸調 (→租・庸・調 ) ，銭，金銀，珠玉などの出納保管，物価，度量衡を司る中央官庁。長官に卿，その下に輔，丞，録 (さかん) などの職員をおいていたが，財政担当機関としては民部省が重んじられていた。奈良時代末期から崩壊の兆しを表わし，鎌倉時代以後は有名無実化した。"
+      }
+    ],
+    "http://schema.org/image": [
+      {
+        "@id": "http://commons.wikimedia.org/wiki/Special:FilePath/Ministry_of_Japan_Finance.jpg?width=300"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://kotobank.jp/word/大蔵省"
+      },
+      {
+        "@id": "http://ja.wikipedia.org/wiki/大蔵省"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "大蔵省"
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="https://jpsearch.go.jp/term/property#"
+  xmlns:ns2="https://w3id.org/hi/api/term/type/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns3="http://schema.org/"
+>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/四条天皇">
+    <ns1:start>1232</ns1:start>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Emperor_Shij%C5%8D.jpg/140px-Emperor_Shij%C5%8D.jpg"/>
+    <rdfs:label>四条天皇</rdfs:label>
+    <ns1:end>1241</ns1:end>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/後深草天皇">
+    <ns1:end>1258</ns1:end>
+    <rdfs:label>後深草天皇</rdfs:label>
+    <ns1:start>1246</ns1:start>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Emperor_Go-Fukakusa.jpg/140px-Emperor_Go-Fukakusa.jpg"/>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/仲恭天皇">
+    <rdfs:label>仲恭天皇</rdfs:label>
+    <ns1:start>1221</ns1:start>
+    <ns1:end>1221</ns1:end>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/後宇多天皇">
+    <rdfs:label>後宇多天皇</rdfs:label>
+    <ns1:start>1274</ns1:start>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Emperor_Go-Uda.jpg/140px-Emperor_Go-Uda.jpg"/>
+    <ns1:end>1286</ns1:end>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/後鳥羽天皇">
+    <ns1:end>1197</ns1:end>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Emperor_Go-Toba.jpg/140px-Emperor_Go-Toba.jpg"/>
+    <rdfs:label>後鳥羽天皇</rdfs:label>
+    <ns1:start>1192</ns1:start>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/順徳天皇">
+    <rdfs:label>順徳天皇</rdfs:label>
+    <ns1:start>1210</ns1:start>
+    <ns1:end>1220</ns1:end>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Emperor_Juntoku_large.jpg/140px-Emperor_Juntoku_large.jpg"/>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/後嵯峨天皇">
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Emperor_Go-Saga.jpg/140px-Emperor_Go-Saga.jpg"/>
+    <rdfs:label>後嵯峨天皇</rdfs:label>
+    <ns1:start>1242</ns1:start>
+    <ns1:end>1245</ns1:end>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/亀山天皇">
+    <ns1:end>1273</ns1:end>
+    <rdfs:label>亀山天皇</rdfs:label>
+    <ns1:start>1259</ns1:start>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Emperor_Kameyama.jpg/140px-Emperor_Kameyama.jpg"/>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/後堀河天皇">
+    <ns1:start>1221</ns1:start>
+    <rdfs:label>後堀河天皇</rdfs:label>
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Emperor_Go-Horikawa.jpg/140px-Emperor_Go-Horikawa.jpg"/>
+    <ns1:end>1231</ns1:end>
+  </ns2:Emperor>
+  <ns2:Emperor rdf:about="https://w3id.org/hi/api/entity/emperor/土御門天皇">
+    <ns3:image rdf:resource="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Emperor_Tsuchimikado.jpg/140px-Emperor_Tsuchimikado.jpg"/>
+    <ns1:start>1198</ns1:start>
+    <ns1:end>1209</ns1:end>
+    <rdfs:label>土御門天皇</rdfs:label>
+  </ns2:Emperor>
+  <rdfs:Class rdf:about="https://w3id.org/hi/api/term/type/Emperor">
+    <rdfs:label>Emperor</rdfs:label>
+  </rdfs:Class>
+</rdf:RDF>
