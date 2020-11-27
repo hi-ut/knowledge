@@ -145,21 +145,28 @@
           const u = this.$route.query.u;
           this.u = u;
 
+          console.log({u})
+
           let query =
-            `
-          DESCRIBE <` +
+            `DESCRIBE <` +
             u +
-            `>
-        `;
+            `>`;
+
+          console.log("https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql?query=" +
+                encodeURIComponent(query))
 
           const main = await axios
             .get(
-              "https://dydra.com/ut-digital-archives/hi_person/sparql?query=" +
+              "https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql?query=" +
                 encodeURIComponent(query)
             )
             .then(function (res) {
               return res.data;
             });
+
+          console.log({main})
+
+          /*
 
           const map = {};
 
@@ -179,6 +186,8 @@
           this.startYear = startYear;
 
           this.main = map;
+
+          */
 
           query =
             `
@@ -201,8 +210,10 @@
         `;
 
           const url =
-            "https://dydra.com/ut-digital-archives/hi_person/sparql?query=" +
+            "https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql?query=" +
             encodeURIComponent(query);
+
+          console.log(url)
 
           var self = this;
           axios.get(url).then(function (res) {

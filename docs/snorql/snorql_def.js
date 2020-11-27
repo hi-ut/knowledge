@@ -4,7 +4,7 @@ var Snorqldef = {
 	//overrides Snorql class variables
 	vars: {
 		//_endpoint: "/works/ld/jpsearch/ep",
-		_endpoint: "https://diyhistory.org/c.php/http://3.91.74.60:8890/sparql",
+		_endpoint: "https://diyhistory.org/c.php/http://3.212.248.73:8890/sparql",
 		_poweredByLink: "https://www.hi.u-tokyo.ac.jp/publication/syoho/10/pub_kokiroku-minkeiki-01.html",
 		_poweredByLabel: "HI Knowledge DB",
 		default_query: "SELECT DISTINCT * WHERE {\n\t?s rdfs:label ?label . \n}\nORDER BY ?s\nLIMIT 100",
