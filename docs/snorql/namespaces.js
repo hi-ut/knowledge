@@ -23,6 +23,9 @@ var D2R_namespacePrefixes = {
     "emperor": "https://w3id.org/hi/api/entity/emperor/",
     "kani": "https://w3id.org/hi/api/term/kani/",
     "role": "https://w3id.org/hi/api/term/role/",
-    "keyword": "https://w3id.org/hi/api/term/keyword/"
+    "keyword": "https://w3id.org/hi/api/term/keyword/",
+    "jps-type":"https://jpsearch.go.jp/term/type/",
+    "jps-time":"https://jpsearch.go.jp/entity/time/",
+    "hi":"https://w3id.org/hi/api/term/property#"
 };
 

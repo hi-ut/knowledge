@@ -3,3 +3,4 @@ tdb
 src/data/TBL_M_E04_list.txt
 token.pickle
 credentials.json
+.DS_Store
